@@ -1,0 +1,21 @@
+{
+  "name":"PREi NTP Manager",
+  "description":"PREi library for managing NTP requests. Returns the UNIX time from an NTP server. After the first return it can run offline until millis() rollover.",
+  "keywords":"prei,esp,ntp",
+  "authors":
+  {
+    "name": "Sorin Guga",
+    "email": "arduino@soringuga.com",
+    "url": "http://www.soringuga.com",
+    "maintainer": true
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/fulf/prei-ntp.git"
+  },
+  "version": "1.0.0",
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms":"espressif"
+}
