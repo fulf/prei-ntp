@@ -15,7 +15,7 @@
     "url": "https://github.com/fulf/prei-ntp.git"
   },
   "version": "1.0.0",
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "frameworks": "arduino",
   "platforms":"espressif"
 }
