@@ -34,7 +34,7 @@ unsigned long PREiNTP::getUnix() {
     word(_packet_buffer[42], _packet_buffer[43]);
   _last_unix = seconds_since_1990 - 2208988800UL;
   _last_millis = millis();
-  _unix_old;
+  _unix_old = false;
 
   return _last_unix;
 }
